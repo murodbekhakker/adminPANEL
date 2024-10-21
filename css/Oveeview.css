@@ -1,0 +1,41 @@
+th,
+tr {
+  border: 2px solid black;
+  border: none;
+}
+table {
+  width: 100%;
+  margin: 100px auto;
+  max-width: 1500px;
+  height: 700px;
+  border-collapse: collapse;
+}
+.people-name-table {
+  color: var(--black);
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 66px;
+}
+tr {
+  height: 66px;
+}
+.section-menu {
+  color: var(--section-menu);
+}
+.profits__number {
+  color: var(--profits-number);
+}
+.losses__number {
+  color: var(--losses-number);
+}
+.table-people__menu {
+  background-color: var(--table-people-menu);
+}
+.number {
+  color: var(--black);
+}
+.tel-number {
+  color: var(--black);
+}

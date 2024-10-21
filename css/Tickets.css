@@ -1,0 +1,12 @@
+th,
+tr {
+  border: 0.5px solid black;
+  /* border: none; */
+}
+table {
+  width: 100%;
+  margin: 100px auto;
+  max-width: 1500px;
+  height: 700px;
+  border-collapse: collapse;
+}
