@@ -26,13 +26,14 @@ body {
   --table-people-menu: #eef2f5;
   --black: #000000;
   --white: #ffffffff;
+  --td: black;
 }
 .dark {
-  --panel-color: #79f70b;
+  --panel-color: #0a0a0a;
   --border-color: #fc0303;
-  --nav-menu: #424247;
-  --a-link: #080808;
-  --li-hover: #24e816;
+  --nav-menu: #ffffff;
+  --a-link: #fffefe;
+  --li-hover: #3a8891;
   --section-btn: #0df3f3;
   --box: #205d8d;
   --section-btn-2: #fd0808;
@@ -40,7 +41,7 @@ body {
   --section-menu: #e1d5d5;
   --profits-number: #550cfe;
   --losses-number: #d4f80a;
-  --table-people-menu: #52f905;
+  --table-people-menu: hsl(184, 25%, 44%);
   --black: #ffff;
   --white: #000000;
 }
@@ -195,7 +196,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 10px 14px;
-  transition: var(--tran-05);
+  transition: 0.5s;
   z-index: 1000;
 }
 nav.close {
@@ -214,3 +215,4 @@ nav.close ~ section {
   left: 73px;
   width: calc(100% - 73px);
 }
+
